@@ -1,0 +1,6 @@
+framework module Pods_gIFTUITests {
+  umbrella header "Pods-gIFTUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

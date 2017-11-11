@@ -1,0 +1,6 @@
+framework module FacebookAuth {
+  umbrella header "FacebookAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
