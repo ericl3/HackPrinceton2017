@@ -15,11 +15,7 @@ class FeedViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-
-    
-    func newPost() {
-        self.performSegue(withIdentifier: "MAKEPOST", sender: nil)
+        handleAddPayment()
     }
     
     override func didReceiveMemoryWarning() {

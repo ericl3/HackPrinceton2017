@@ -41,6 +41,7 @@ class postVC: UIViewController, UINavigationControllerDelegate, UIImagePickerCon
  
  
  }
+
     
     @IBAction func cancelClicked(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
