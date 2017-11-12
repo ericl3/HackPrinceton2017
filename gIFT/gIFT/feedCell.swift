@@ -26,20 +26,12 @@ class feedCell: UITableViewCell {
     
     @objc func doubleTapped() {
         print("double tapped")
-        if(Global.firstAccess == true) {
-            Global.firstAccess = false
-            if var topController = UIApplication.shared.keyWindow?.rootViewController {
-                topController.performSegue(withIdentifier: "MAKEPAYMENT", sender: nil)
-            }
-           
-        }
         
-        let gift = UIImage(contentsOfFile: "gift.png")
-        let giftView = UIImageView(image: gift)
-        giftView.frame = postImg.frame
-        giftView.center = postImg.center
-        postImg.addSubview(giftView)
+        var visualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: .extraLight))
         
+        visualEffectView.frame = postImg.bounds
+        
+        postImg.addSubview(visualEffectView)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

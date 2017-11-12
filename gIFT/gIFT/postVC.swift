@@ -42,10 +42,11 @@ class postVC: UIViewController, UINavigationControllerDelegate, UIImagePickerCon
  
  }
 
-    
     @IBAction func cancelClicked(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    
+
     // allows user to select image from their photo library
     @objc func loadImg(_ recognizer:UITapGestureRecognizer) {
         let picker = UIImagePickerController()

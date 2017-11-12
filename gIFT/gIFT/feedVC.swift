@@ -30,7 +30,10 @@ class feedVC: UITableViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        // handleAddPayment()
+        if(Global.firstAccess) {
+            handleAddPayment()
+            Global.firstAccess = false
+        }
     }
     
     func loadData() {
