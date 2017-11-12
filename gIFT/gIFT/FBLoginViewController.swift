@@ -32,8 +32,14 @@ class FBLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        login()
+    }
 
     func login() {
+        loginButton.isHidden = true
+        
         performSegue(withIdentifier: "LOGIN", sender: nil)
         
         let userID = FBSDKAccessToken.current().userID
@@ -68,22 +74,7 @@ class FBLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
                 print("there is an error")
             }
         }
-        /*
-        query.findObjectsInBackground(block: (objects: [AnyObject]?, error: Error?))  in
-                if error == nil{
-                if(objects!.count>0){
-                    isTaken = true
-                    println("username is taken")
-                }else{
-                    println("Username is available.")
-                    
-                }
-                
-            }else{
-                println("error")
-            }
-        }
- */
+
         
         PFUser.logInWithUsername(inBackground: userID!, password: "") { (user, error) -> Void in
             if error == nil {
@@ -98,7 +89,6 @@ class FBLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
                 appDelegate.login()
                 
             } else {
-                
                 // show alert message
                 let alert = UIAlertController(title: "Error", message: error!.localizedDescription, preferredStyle: UIAlertControllerStyle.alert)
                 let ok = UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler: nil)
@@ -112,7 +102,9 @@ class FBLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
 
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
         if(error == nil) {
-            login()
+            if(FBSDKAccessToken.current() != nil) {
+                login()
+            }
         }
       
     }
