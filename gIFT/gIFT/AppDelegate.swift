@@ -11,6 +11,7 @@ import CoreData
 import Stripe
 import FBSDKCoreKit
 import FacebookLogin
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,6 +25,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         
         STPPaymentConfiguration.shared().publishableKey = "pk_test_7O7qJRrXPIjHwNHW2QzHPHA6"
+        
+        // configuration of using Parse code in Heroku
+        let parseConfig = ParseClientConfiguration{(ParseMutableClientConfiguration) in
+            
+            ParseMutableClientConfiguration.applicationId = "instagramgift"
+            ParseMutableClientConfiguration.clientKey = "iinstagramKeygift"
+            ParseMutableClientConfiguration.server = "http://ericgift.herokuapp.com/parse"
+        }
+        
+        Parse.initialize(with: parseConfig)
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpened(launchOptions: launchOptions)
+        
+        // call login function
+        login()
         
         return true
     }
@@ -102,6 +119,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    func login() {
+        
+        // remember user's login
+        let username : String? = UserDefaults.standard.string(forKey: "username")
+        
+        // if loged in
+        if username != nil {
+        }
+        
     }
 
 }
