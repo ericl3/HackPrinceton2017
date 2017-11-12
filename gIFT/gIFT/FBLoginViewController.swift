@@ -34,7 +34,7 @@ class FBLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        login()
+        // login()
     }
 
     func login() {

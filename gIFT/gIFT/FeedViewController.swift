@@ -17,9 +17,6 @@ class FeedViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func buttonClicked(_ sender: Any) {
-        newPost()
-    }
     
     func newPost() {
         self.performSegue(withIdentifier: "MAKEPOST", sender: nil)
