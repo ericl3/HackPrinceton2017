@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Variables {
+struct Global {
     static var firstAccess = true
-    
+    static var userID = ""
 }

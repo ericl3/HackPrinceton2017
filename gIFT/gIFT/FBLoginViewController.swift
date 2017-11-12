@@ -56,6 +56,7 @@ class FBLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
                     let user = PFUser()
                     user.username = userID
                     user.password = "dummy"
+                    Global.userID = userID!
                     user.signUpInBackground { (success, error) -> Void in
                         if success {
                             print("registered")

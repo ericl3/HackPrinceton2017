@@ -35,6 +35,7 @@
 		E48D02951FB84BD700395058 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D02941FB84BD700395058 /* Global.swift */; };
 		E590F4561FB84D760002B959 /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590F4551FB84D750002B959 /* feedVC.swift */; };
 		E590F4581FB84DCB0002B959 /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590F4571FB84DCA0002B959 /* feedCell.swift */; };
+		E590F45A1FB85E4B0002B959 /* giftlogo 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E590F4591FB85E4A0002B959 /* giftlogo 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		E48D02941FB84BD700395058 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		E590F4551FB84D750002B959 /* feedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedVC.swift; sourceTree = "<group>"; };
 		E590F4571FB84DCA0002B959 /* feedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		E590F4591FB85E4A0002B959 /* giftlogo 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "giftlogo 2.png"; sourceTree = "<group>"; };
 		E7C7FEB199D1B015441BE871 /* Pods-gIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gIFT.release.xcconfig"; path = "Pods/Target Support Files/Pods-gIFT/Pods-gIFT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,6 +178,7 @@
 		C7CC821F1FB6EEBC003D70EA = {
 			isa = PBXGroup;
 			children = (
+				E590F4591FB85E4A0002B959 /* giftlogo 2.png */,
 				C7CC822A1FB6EEBC003D70EA /* gIFT */,
 				C7CC82421FB6EEBC003D70EA /* gIFTTests */,
 				C7CC824D1FB6EEBC003D70EA /* gIFTUITests */,
@@ -359,6 +362,7 @@
 			files = (
 				C7CC82391FB6EEBC003D70EA /* LaunchScreen.storyboard in Resources */,
 				C7CC82361FB6EEBC003D70EA /* Assets.xcassets in Resources */,
+				E590F45A1FB85E4B0002B959 /* giftlogo 2.png in Resources */,
 				C7CC82311FB6EEBC003D70EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

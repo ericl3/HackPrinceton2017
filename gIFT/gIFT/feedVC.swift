@@ -9,10 +9,11 @@
 import UIKit
 import Parse
 
-var postuuid = [String]()
+//var postuuid = [String]()
 
 class feedVC: UITableViewController {
 
+    // comment out uuid for now
     // hold info from server
     var usernameArray = [String]()
     var picArray = [PFFile]()
@@ -21,13 +22,18 @@ class feedVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        loadData()
+    }
+    
+    func loadData() {
+        print("Attempting to access data")
         // dynamic cell length
-        tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 450
-        /**
+        //self.tableView.rowHeight = UITableViewAutomaticDimension
+        //tableView.estimatedRowHeight = 450
+        
         let postQuery = PFQuery(className: "posts")
-        postQuery.whereKey("uuid", equalTo: postuuid.last!)
+        //postQuery.whereKey("uuid", equalTo: postuuid.last!)
         postQuery.findObjectsInBackground(block: { (objects, error) -> Void in
             if error == nil {
                 
@@ -35,10 +41,11 @@ class feedVC: UITableViewController {
                 self.usernameArray.removeAll(keepingCapacity: false)
                 self.picArray.removeAll(keepingCapacity: false)
                 self.titleArray.removeAll(keepingCapacity: false)
-                self.uuidArray.removeAll(keepingCapacity: false)
+                //self.uuidArray.removeAll(keepingCapacity: false)
                 
                 // find related objects
                 for object in objects! {
+                    print("access")
                     self.usernameArray.append(object.object(forKey: "username") as! String)
                     self.picArray.append(object.object(forKey: "pic") as! PFFile)
                     self.titleArray.append(object.object(forKey: "title") as! String)
@@ -47,18 +54,19 @@ class feedVC: UITableViewController {
                 
                 // reload tableView & end spinning of refresher
                 /*
-                self.tableView.reloadData()
-                self.refresher.endRefreshing()
+                 self.tableView.reloadData()
+                 self.refresher.endRefreshing()
                  */
+                dump(self.titleArray)
+                
+                self.tableView.reloadData()
                 
             } else {
                 print(error!.localizedDescription)
             }
         })
- **/
+        
     }
-    
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -69,12 +77,13 @@ class feedVC: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
     
     // cell numb
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return uuidArray.count
+        //return uuidArray.count
+        return titleArray.count
     }
     
     // cell config

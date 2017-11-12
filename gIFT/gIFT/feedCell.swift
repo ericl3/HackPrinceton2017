@@ -15,7 +15,6 @@ class feedCell: UITableViewCell {
     @IBOutlet weak var descriptionTxt: UILabel!
     @IBOutlet weak var uuidLabel: UILabel!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
