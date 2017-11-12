@@ -737,16 +737,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UU682C454J;
+				DEVELOPMENT_TEAM = ZX885WV83E;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = gIFT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gIFT.gIFT;
+				PRODUCT_BUNDLE_IDENTIFIER = gIFT.gIFT.gIFT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ericlin/Documents/HackPrinceton2017/gIFT/gIFT/gIFT-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brianli/Downloads/quickstart-ios-master/HackPrinceton2017/gIFT/gIFT/gIFT-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -758,16 +758,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UU682C454J;
+				DEVELOPMENT_TEAM = ZX885WV83E;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = gIFT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gIFT.gIFT;
+				PRODUCT_BUNDLE_IDENTIFIER = gIFT.gIFT.gIFT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ericlin/Documents/HackPrinceton2017/gIFT/gIFT/gIFT-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brianli/Downloads/quickstart-ios-master/HackPrinceton2017/gIFT/gIFT/gIFT-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
