@@ -8,6 +8,9 @@ target 'gIFT' do
   # Pods for gIFT
   pod 'FacebookLogin'
   pod 'FacebookAuth'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'Stripe'
 
   target 'gIFTTests' do
     inherit! :search_paths
