@@ -13,6 +13,7 @@ import FBSDKLoginKit
 
 class postVC: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextViewDelegate {
 
+    @IBOutlet weak var organizationTxt: UITextField!
     @IBOutlet weak var descriptionTxt: UITextView!
     @IBOutlet weak var imageView: UIImageView!
     
@@ -110,11 +111,11 @@ class postVC: UIViewController, UINavigationControllerDelegate, UIImagePickerCon
         // print(PFUser.current())
         // object["username"] = PFUser.current()!.username
         // object["username"] = Global.userID
-        object["username"] = "Hello"
+        object["username"] = organizationTxt.text
         
         let uuid = UUID().uuidString
         // object["uuid"] = "\(Global.userID) \(uuid)"
-        object["uuid"] = "\("Hello") \(uuid)"
+        object["uuid"] = "\(organizationTxt.text) \(uuid)"
         
         // stores description of the post
         object["title"] = descriptionTxt.text.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)

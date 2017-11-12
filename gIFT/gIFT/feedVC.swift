@@ -93,6 +93,7 @@ class feedVC: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! feedCell
         
         // connect objects with our information from arrays
+        cell.nameTxt.text = usernameArray[indexPath.row]
         cell.uuidLabel.text = uuidArray[indexPath.row]
         cell.descriptionTxt.text = titleArray[indexPath.row]
         cell.descriptionTxt.sizeToFit()
