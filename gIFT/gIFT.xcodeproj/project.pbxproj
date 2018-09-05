@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		185A58EEF6C070C2239A9595 /* Pods_gIFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B55E6D7FF97D7889385E918 /* Pods_gIFT.framework */; };
 		1919D36E3726C7B9EE71BB74 /* Pods_gIFTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73052BEADDE934A915BBD38 /* Pods_gIFTUITests.framework */; };
-		C7C7E9DE1FB7DB2200EFDAF8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C7E9DD1FB7DB2200EFDAF8 /* FeedViewController.swift */; };
 		C7CC822C1FB6EEBC003D70EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC822B1FB6EEBC003D70EA /* AppDelegate.swift */; };
 		C7CC822E1FB6EEBC003D70EA /* FBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC822D1FB6EEBC003D70EA /* FBLoginViewController.swift */; };
 		C7CC82311FB6EEBC003D70EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CC822F1FB6EEBC003D70EA /* Main.storyboard */; };
@@ -19,6 +18,29 @@
 		C7CC82441FB6EEBC003D70EA /* gIFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC82431FB6EEBC003D70EA /* gIFTTests.swift */; };
 		C7CC824F1FB6EEBC003D70EA /* gIFTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC824E1FB6EEBC003D70EA /* gIFTUITests.swift */; };
 		DB957CB1F9207191B7DA92B9 /* Pods_gIFTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D79327DDD459A6AF60019FD /* Pods_gIFTTests.framework */; };
+		E46808191FB7E6FD00CE751A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46808181FB7E6FD00CE751A /* SystemConfiguration.framework */; };
+		E468081B1FB7E70900CE751A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E468081A1FB7E70900CE751A /* AudioToolbox.framework */; };
+		E468081D1FB7E71800CE751A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E468081C1FB7E71800CE751A /* Security.framework */; };
+		E468081F1FB7E72A00CE751A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E468081E1FB7E72A00CE751A /* CFNetwork.framework */; };
+		E46808211FB7E73000CE751A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46808201FB7E73000CE751A /* StoreKit.framework */; };
+		E46808231FB7E73400CE751A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46808221FB7E73400CE751A /* CoreLocation.framework */; };
+		E46808251FB7E73900CE751A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46808241FB7E73900CE751A /* CoreGraphics.framework */; };
+		E46808271FB7E73E00CE751A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46808261FB7E73E00CE751A /* QuartzCore.framework */; };
+		E468082A1FB7E78700CE751A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46808281FB7E78600CE751A /* Bolts.framework */; };
+		E468082B1FB7E78700CE751A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46808291FB7E78700CE751A /* Parse.framework */; };
+		E48494101FB81D1D008E6E11 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E484940F1FB81D1D008E6E11 /* libsqlite3.tbd */; };
+		E48494121FB81D2A008E6E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E48494111FB81D2A008E6E11 /* libz.tbd */; };
+		E48D02901FB83AC300395058 /* postVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D028F1FB83AC300395058 /* postVC.swift */; };
+		E48D02951FB84BD700395058 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D02941FB84BD700395058 /* Global.swift */; };
+		E4E2E3951FB8806200602A47 /* yeah.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E2E3941FB8806100602A47 /* yeah.png */; };
+		E4E2E3971FB8826600602A47 /* mhm.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E2E3961FB8826600602A47 /* mhm.png */; };
+		E590F4561FB84D760002B959 /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590F4551FB84D750002B959 /* feedVC.swift */; };
+		E590F4581FB84DCB0002B959 /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590F4571FB84DCA0002B959 /* feedCell.swift */; };
+		E590F45A1FB85E4B0002B959 /* giftlogo 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E590F4591FB85E4A0002B959 /* giftlogo 2.png */; };
+		E590F45E1FB86A960002B959 /* buttons in Resources */ = {isa = PBXBuildFile; fileRef = E590F45D1FB86A960002B959 /* buttons */; };
+		E590F4601FB86B1E0002B959 /* ButtonsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590F45F1FB86B1D0002B959 /* ButtonsVC.swift */; };
+		E590F4641FB873020002B959 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590F4631FB873020002B959 /* FeedViewController.swift */; };
+		E590F4661FB878160002B959 /* gift.png in Resources */ = {isa = PBXBuildFile; fileRef = E590F4651FB878150002B959 /* gift.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +67,6 @@
 		73B7CDB2CF948D1EFB75CE38 /* Pods-gIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gIFT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gIFT/Pods-gIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		8D79327DDD459A6AF60019FD /* Pods_gIFTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gIFTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72999D51FB7CD1D007D78CD /* gIFT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gIFT-Bridging-Header.h"; sourceTree = "<group>"; };
-		C7C7E9DD1FB7DB2200EFDAF8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		C7CC82281FB6EEBC003D70EA /* gIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CC822B1FB6EEBC003D70EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7CC822D1FB6EEBC003D70EA /* FBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +84,29 @@
 		C840EDFEC5041363BF038B43 /* Pods-gIFTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gIFTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gIFTUITests/Pods-gIFTUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D73052BEADDE934A915BBD38 /* Pods_gIFTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gIFTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEF60D5B66B8B6D2369D4D9 /* Pods-gIFTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gIFTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gIFTTests/Pods-gIFTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E46808181FB7E6FD00CE751A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E468081A1FB7E70900CE751A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E468081C1FB7E71800CE751A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E468081E1FB7E72A00CE751A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E46808201FB7E73000CE751A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E46808221FB7E73400CE751A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E46808241FB7E73900CE751A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E46808261FB7E73E00CE751A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E46808281FB7E78600CE751A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		E46808291FB7E78700CE751A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		E484940F1FB81D1D008E6E11 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E48494111FB81D2A008E6E11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E48D028F1FB83AC300395058 /* postVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postVC.swift; sourceTree = "<group>"; };
+		E48D02941FB84BD700395058 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		E4E2E3941FB8806100602A47 /* yeah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeah.png; sourceTree = "<group>"; };
+		E4E2E3961FB8826600602A47 /* mhm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhm.png; sourceTree = "<group>"; };
+		E590F4551FB84D750002B959 /* feedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedVC.swift; sourceTree = "<group>"; };
+		E590F4571FB84DCA0002B959 /* feedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		E590F4591FB85E4A0002B959 /* giftlogo 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "giftlogo 2.png"; sourceTree = "<group>"; };
+		E590F45D1FB86A960002B959 /* buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = buttons; sourceTree = "<group>"; };
+		E590F45F1FB86B1D0002B959 /* ButtonsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsVC.swift; sourceTree = "<group>"; };
+		E590F4631FB873020002B959 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E590F4651FB878150002B959 /* gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift.png; sourceTree = "<group>"; };
 		E7C7FEB199D1B015441BE871 /* Pods-gIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gIFT.release.xcconfig"; path = "Pods/Target Support Files/Pods-gIFT/Pods-gIFT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +115,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48494121FB81D2A008E6E11 /* libz.tbd in Frameworks */,
+				E48494101FB81D1D008E6E11 /* libsqlite3.tbd in Frameworks */,
+				E46808271FB7E73E00CE751A /* QuartzCore.framework in Frameworks */,
+				E46808251FB7E73900CE751A /* CoreGraphics.framework in Frameworks */,
+				E46808231FB7E73400CE751A /* CoreLocation.framework in Frameworks */,
+				E46808211FB7E73000CE751A /* StoreKit.framework in Frameworks */,
+				E468081F1FB7E72A00CE751A /* CFNetwork.framework in Frameworks */,
+				E468082A1FB7E78700CE751A /* Bolts.framework in Frameworks */,
+				E468082B1FB7E78700CE751A /* Parse.framework in Frameworks */,
+				E468081D1FB7E71800CE751A /* Security.framework in Frameworks */,
+				E468081B1FB7E70900CE751A /* AudioToolbox.framework in Frameworks */,
+				E46808191FB7E6FD00CE751A /* SystemConfiguration.framework in Frameworks */,
 				185A58EEF6C070C2239A9595 /* Pods_gIFT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +166,18 @@
 		90215AC327B49AEA89333C4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E48494111FB81D2A008E6E11 /* libz.tbd */,
+				E484940F1FB81D1D008E6E11 /* libsqlite3.tbd */,
+				E46808281FB7E78600CE751A /* Bolts.framework */,
+				E46808291FB7E78700CE751A /* Parse.framework */,
+				E46808261FB7E73E00CE751A /* QuartzCore.framework */,
+				E46808241FB7E73900CE751A /* CoreGraphics.framework */,
+				E46808221FB7E73400CE751A /* CoreLocation.framework */,
+				E46808201FB7E73000CE751A /* StoreKit.framework */,
+				E468081E1FB7E72A00CE751A /* CFNetwork.framework */,
+				E468081C1FB7E71800CE751A /* Security.framework */,
+				E468081A1FB7E70900CE751A /* AudioToolbox.framework */,
+				E46808181FB7E6FD00CE751A /* SystemConfiguration.framework */,
 				6B55E6D7FF97D7889385E918 /* Pods_gIFT.framework */,
 				8D79327DDD459A6AF60019FD /* Pods_gIFTTests.framework */,
 				D73052BEADDE934A915BBD38 /* Pods_gIFTUITests.framework */,
@@ -120,6 +188,10 @@
 		C7CC821F1FB6EEBC003D70EA = {
 			isa = PBXGroup;
 			children = (
+				E4E2E3961FB8826600602A47 /* mhm.png */,
+				E4E2E3941FB8806100602A47 /* yeah.png */,
+				E590F4591FB85E4A0002B959 /* giftlogo 2.png */,
+				E590F4651FB878150002B959 /* gift.png */,
 				C7CC822A1FB6EEBC003D70EA /* gIFT */,
 				C7CC82421FB6EEBC003D70EA /* gIFTTests */,
 				C7CC824D1FB6EEBC003D70EA /* gIFTUITests */,
@@ -146,11 +218,17 @@
 				C7CC822D1FB6EEBC003D70EA /* FBLoginViewController.swift */,
 				C72999D51FB7CD1D007D78CD /* gIFT-Bridging-Header.h */,
 				C7CC822F1FB6EEBC003D70EA /* Main.storyboard */,
-				C7C7E9DD1FB7DB2200EFDAF8 /* FeedViewController.swift */,
+				E48D028F1FB83AC300395058 /* postVC.swift */,
+				E590F4551FB84D750002B959 /* feedVC.swift */,
+				E590F4631FB873020002B959 /* FeedViewController.swift */,
+				E590F4571FB84DCA0002B959 /* feedCell.swift */,
+				E590F45F1FB86B1D0002B959 /* ButtonsVC.swift */,
+				E590F45D1FB86A960002B959 /* buttons */,
 				C7CC82351FB6EEBC003D70EA /* Assets.xcassets */,
 				C7CC82371FB6EEBC003D70EA /* LaunchScreen.storyboard */,
 				C7CC823A1FB6EEBC003D70EA /* Info.plist */,
 				C7CC82321FB6EEBC003D70EA /* gIFT.xcdatamodeld */,
+				E48D02941FB84BD700395058 /* Global.swift */,
 			);
 			path = gIFT;
 			sourceTree = "<group>";
@@ -290,8 +368,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7CC82391FB6EEBC003D70EA /* LaunchScreen.storyboard in Resources */,
+				E4E2E3951FB8806200602A47 /* yeah.png in Resources */,
+				E590F45E1FB86A960002B959 /* buttons in Resources */,
 				C7CC82361FB6EEBC003D70EA /* Assets.xcassets in Resources */,
+				E4E2E3971FB8826600602A47 /* mhm.png in Resources */,
+				E590F45A1FB85E4B0002B959 /* giftlogo 2.png in Resources */,
 				C7CC82311FB6EEBC003D70EA /* Main.storyboard in Resources */,
+				E590F4661FB878160002B959 /* gift.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,9 +561,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E590F4561FB84D760002B959 /* feedVC.swift in Sources */,
+				E590F4641FB873020002B959 /* FeedViewController.swift in Sources */,
+				E48D02901FB83AC300395058 /* postVC.swift in Sources */,
 				C7CC822E1FB6EEBC003D70EA /* FBLoginViewController.swift in Sources */,
+				E590F4601FB86B1E0002B959 /* ButtonsVC.swift in Sources */,
+				E48D02951FB84BD700395058 /* Global.swift in Sources */,
 				C7CC822C1FB6EEBC003D70EA /* AppDelegate.swift in Sources */,
-				C7C7E9DE1FB7DB2200EFDAF8 /* FeedViewController.swift in Sources */,
+				E590F4581FB84DCB0002B959 /* feedCell.swift in Sources */,
 				C7CC82341FB6EEBC003D70EA /* gIFT.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,11 +737,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX885WV83E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = gIFT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gIFT.gIFT;
+				PRODUCT_BUNDLE_IDENTIFIER = gIFT.gIFT.gIFT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brianli/Documents/iOS Apps/Stripe/HackPrinceton2017/gIFT/gIFT/gIFT-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brianli/Downloads/quickstart-ios-master/HackPrinceton2017/gIFT/gIFT/gIFT-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -665,11 +758,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX885WV83E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = gIFT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gIFT.gIFT;
+				PRODUCT_BUNDLE_IDENTIFIER = gIFT.gIFT.gIFT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brianli/Documents/iOS Apps/Stripe/HackPrinceton2017/gIFT/gIFT/gIFT-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brianli/Downloads/quickstart-ios-master/HackPrinceton2017/gIFT/gIFT/gIFT-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
